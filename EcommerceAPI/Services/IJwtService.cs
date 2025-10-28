@@ -1,6 +1,8 @@
 namespace EcommerceAPI.Services;
 
-public class IJwtService
+using EcommerceAPI.Models;
+
+public interface IJwtService
 {
-    
+    string GenerateToken(User user);
 }
